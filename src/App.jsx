@@ -2,7 +2,7 @@ import {useDispatch} from 'react-redux'
 import { useState } from 'react'
 import { useEffect } from 'react';
 import {login,logout} from './store/authSlice'
-import Header from './components/header/header';
+import Header from './components/Header/Header';
 import Footer from './components/footer/footer';
 import authService from './appwrite/auth'
 import { Outlet } from 'react-router-dom';
