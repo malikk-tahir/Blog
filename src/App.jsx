@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useEffect } from 'react';
 import {login,logout} from './store/authSlice'
 import Header from './components/Header/Header';
-import Footer from './components/footer/footer';
+import Footer from './components/Footer/Footer';
 import authService from './appwrite/auth'
 import { Outlet } from 'react-router-dom';
 
